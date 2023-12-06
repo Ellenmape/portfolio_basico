@@ -1,0 +1,153 @@
+/*SELETOR UNIVERSAL*/
+*{
+    margin: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+body{
+    font-family: 'Roboto Serif', serif;
+    background-color: #E3DECA;
+
+}
+header h1,
+header p{
+    color:#E3DECA
+}
+header{background-image: url(../img/ellen10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+        }
+button{background-color: #5C2C0C;
+    color: #AA6231;
+    font-family: 'Roboto Serif', serif;
+
+}
+
+.botao-header{
+    display:inline-block;
+    background-color: #E3DECA;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 10px;
+  
+}
+.texto-botao{
+    text-decoration: none;
+    color:#AA6231;
+}
+
+
+/*SOBRE*/
+.sobre{
+    margin-left: 90px;
+}
+
+.sobre h2 {
+    margin-top: 30px;
+    font-size: xx-large;
+    color: #AA6231;
+}
+
+.sobre a {
+    text-decoration: none;
+    color: #E3DECA;
+    font-weight: bolder;
+    background-color: #AA6231;
+    border-radius: 15px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+
+
+.descricao p {
+    text-align: justify;
+}
+
+.habilidades {
+    padding: 10px;
+}
+
+.habilidades h3 {
+    margin-bottom: 20px;
+    margin-left: 22px;
+}
+
+.descricao,
+.habilidades{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+    /*FOOTER*/
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+      }
+
+      footer img {
+        height: 35px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+      }
+      
+      .redes.sociais {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .redes.sociais a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        padding: 15px;
+        width: 80px;
+        border-radius: 5px;
+        background-color: #AA6231;
+        color: #E3DECA;
+        text-decoration: none;
+      }
+      
+      .redes.sociais a img {
+        margin-bottom: 10px;
+      }
+      
+      .redes.sociais a h4 {
+        margin: 0;
+        margin-bottom: 6px;
+      }
+      
+      .redes.sociais a p {
+        margin: 0;
+        font-size: 12px;
+      }
+      
+      p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+
